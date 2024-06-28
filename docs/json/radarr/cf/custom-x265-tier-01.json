@@ -1,0 +1,226 @@
+{
+  "trash_id": "37eb891b11550b48c22db7bd8e81ed3b",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Custom x265 Tier 01",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "x|h265",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "[xh][ ._-]?265|\\bHEVC(\\b|\\d)"
+      }
+    },
+    {
+      "name": "Not Remux",
+      "implementation": "QualityModifierSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "QxR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(QxR)$"
+      }
+    },
+    {
+      "name": "Silence",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Silence)$"
+      }
+    },
+    {
+      "name": "ghost",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ghost)$"
+      }
+    },
+    {
+      "name": "t3nzin",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(t3nzin)$"
+      }
+    },
+    {
+      "name": "RZeroX",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(RZeroX)$"
+      }
+    },
+    {
+      "name": "ImE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(ImE)$"
+      }
+    },
+    {
+      "name": "afm72",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(afm72)$"
+      }
+    },
+    {
+      "name": "Bandi",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Bandi)$"
+      }
+    },
+    {
+      "name": "r00t",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(r00t)$"
+      }
+    },
+    {
+      "name": "Panda",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Panda)$"
+      }
+    },
+    {
+      "name": "Kappa",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kappa)$"
+      }
+    },
+    {
+      "name": "Sampa",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Sampa)$"
+      }
+    },
+    {
+      "name": "Garshasp",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Garshasp)$"
+      }
+    },
+    {
+      "name": "RCVR",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(RCVR)$"
+      }
+    },
+    {
+      "name": "MONOLITH",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(MONOLITH)$"
+      }
+    },
+    {
+      "name": "YOGI",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(YOGI)$"
+      }
+    },
+    {
+      "name": "FreetheFish",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(FreetheFish)$"
+      }
+    },
+    {
+      "name": "Vyndros",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Vyndros)$"
+      }
+    },
+    {
+      "name": "HONE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HONE)$"
+      }
+    },
+    {
+      "name": "Weasley",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Weasley)$"
+      }
+    },
+    {
+      "name": "DiscoD",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DiscoD)$"
+      }
+    },
+    {
+      "name": "YOGI",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(YOGI)$"
+      }
+    }
+  ]
+}

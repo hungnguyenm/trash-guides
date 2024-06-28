@@ -1,0 +1,136 @@
+{
+  "trash_id": "fb5b19f7142dee77aba11bf71270a068",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Custom x265 Tier 03-",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "x|h265",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "[xh][ ._-]?265|\\bHEVC(\\b|\\d)"
+      }
+    },
+    {
+      "name": "Not Remux",
+      "implementation": "QualityModifierSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "Vyndros",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Vyndros)$"
+      }
+    },
+    {
+      "name": "TAoE",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(TAoE)$"
+      }
+    },
+    {
+      "name": "r0b0t",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(r0b0t)$"
+      }
+    },
+    {
+      "name": "JBENT",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(JBENT)$"
+      }
+    },
+    {
+      "name": "Erie",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Erie)$"
+      }
+    },
+    {
+      "name": "Goki",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Goki)$"
+      }
+    },
+    {
+      "name": "DrainedDay",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DrainedDay)$"
+      }
+    },
+    {
+      "name": "HxD",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(HxD)$"
+      }
+    },
+    {
+      "name": "DNU",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(DNU)$"
+      }
+    },
+    {
+      "name": "SEV",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(SEV)$"
+      }
+    },
+    {
+      "name": "D0ct0rLew",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(D0ct0rLew)$"
+      }
+    },
+    {
+      "name": "Kira",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Kira)$"
+      }
+    }
+  ]
+}
